@@ -10,7 +10,7 @@
     </head>
     <body>
     	<div id="wrapper">
-    		<div> id="header">
+    		<div id="header">
     			<h1>日報管理システム</h1>
     		</div>
     		<div id="content">
