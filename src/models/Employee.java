@@ -55,7 +55,7 @@ public class Employee {
 	@Column(name = "updated_at", nullable = false)
 	private Timestamp updated_at;
 
-	@Column(name = "deleted_flag", nullable = false)
+	@Column(name = "delete_flag", nullable = false)
 	private Integer delete_flag;
 
 	public Integer getId() {
@@ -118,7 +118,7 @@ public class Employee {
 		return delete_flag;
 	}
 
-	public void setDelete_flag(Integer dalete_flag) {
+	public void setDelete_flag(Integer delete_flag) {
 		this.delete_flag = delete_flag;
 	}
 }
